@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Concert Photography</title>
+<link href=""./index_files/css2"" rel="stylesheet">
+<style>
+    * {margin: 0; padding: 0;}
+    @font-face {
+        font-family: Candara;
+        src: url("Candara.ttf");
+    } body {
+    background: aliceblue;
+	} h1 {
+    font: 42pt/1.4em Satisfy;
+    text-align: center;
+    margin: 36px 0 24px 0;
+    text-shadow: 1px 2px 3px red;
+	} h2 {
+    font: 24pt/1.4em Candara;
+    text-align: center;
+	} p {
+    font: 14pt/1.4em Candara;
+    width: 768px;
+    margin: 12px auto;
+	} pre {
+    font: 14pt/1.4em monospace;
+    width: 760px;
+    margin: 0 auto;
+	} #textbox {
+    width: 1024px;
+    height: 1024px;
+    background: white;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 6px gray;
+    margin: 24px auto;
+	} #picturebox {
+    width: 928px;
+    height: auto;
+    border: 1px dashed darkgray;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 216px);
+    grid-auto-rows: auto;
+    justify-content: center;
+    padding: 24px;
+    gap: 12px;
+	} figure {
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+	} img {
+    width: 216px;
+    height: 270px;
+    display: block;
+    margin-bottom: 8px;
+    transition: opacity 0.5s;
+	} img:hover {
+    opacity: 0.67;
+	} figcaption {
+    font: 12pt/1.4em Candara;
+    text-align: center;
+    margin-top: 0;
+	} ul {
+    width: 362px;
+    height: 50px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: auto / auto auto;
+    justify-content: space-between;
+	} li {
+    width: 175px;
+    height: 50px;
+    background: lightgray;
+    border-radius: 12px;
+    list-style: none;
+    font: 14pt/2.6em Candara;
+    text-align: center;
+	} a {
+    color: black;
+    text-decoration: none;
+	} li:hover {
+    background: rgba(169,225,245,0.80);
+    transition: background 0.5s;
+	}
+</style>
+</head>
+<body>
+    <h1>Concert Photography&nbsp;</h1>
+    <div id="textbox">
+    <div id="picturebox">
+    <figure>
+        <a href="kopia.jpg">
+        <img src="kopia.jpg">
+        </a>
+        <figcaption>Tyler, The Creator, Chromakopia Tour '25</figcaption>
+    </figure>
+    <figure>
+        <a href="gaga.jpg">
+        <img src="gaga.jpg">
+        </a>
+        <figcaption>Lady Gaga, Coachella '25</figcaption>
+    </figure>
+    <figure>
+        <a href="billie.jpg">
+        <img src="billie.jpg">
+        </a>
+        <figcaption>Billie Eilish, Hit Me Hard and Soft Tour '24</figcaption>
+    </figure>
+    <figure>
+        <a href="glorillaa.jpg">
+        <img src="glorillaa.jpg">
+        </a>
+        <figcaption>Glorilla, iHeartRadio Festival '25</figcaption>
+    </figure>
+    <figure>
+        <a href="lisa.jpg">
+        <img src="lisa.jpg">
+        </a>
+        <figcaption>Lisa, Coachella '25</figcaption>
+    </figure>
+    <figure>
+        <a href="maroon5.jpg">
+        <img src="maroon5.jpg">
+        </a>
+        <figcaption>Maroon 5, iHeartRadio Festival '25'</figcaption>
+    </figure>
+    </div>
+    <h2>Colophon</h2>
+    <p>This portfolio was constructed by applying a 2-row by 3-column grid layout to a hidden &lt;div&gt; called “picturebox” (dashed line) that was set to the grid layout (display: grid;). The grid layout arranges items in a specified number of rows and columns, as defined by the “grid-template” style. (Photos taken by Kyler Alcantara)</p>
+    </div>
+
+</body></html>
